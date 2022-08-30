@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+        .p-table{
+            max-height: 97vh;
+            overflow: scroll;
+        }
+        .elementBtn{
+            height: 70px;
+            width: 95px;
+            margin-bottom: 8px;
+            border: none;
+            
+
+        }
+        .test-tube{
+            height: 450px;
+            
+        }
+        .height{
+            height: 100vh;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row" >
+            <div class="col-md-2  ">
+                <h2 class="text-center text-success py-3">Components</h2>
+                <div class="card shadow" style="width: 12rem;">
+                    <img src="images/water.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Water</h5>
+                      <a href="#" class="btn btn-outline-success btn-sm d-block mx-auto">Add Water</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-7  height shadow-lg">
+                <h2 class="text-center text-success py-3">Vertual Chemistry Lab</h2>
+                <img src="images/test-tube-27134640-removebg-preview.png" class="d-block mx-auto pt-5" id="testTube"alt="">
+            </div>
+            <div class="col-md-3 ">
+                <div class="row p-table" id="pRow">
+                    <h2 class="text-center text-success py-4">Elements</h2>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
